@@ -1,0 +1,81 @@
+.contact-edit {
+  position: relative;
+  margin: auto;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 5px #00000070;
+  border-radius: 8px;
+
+  p,
+  .toggle-btns {
+    margin: 30px auto;
+    width: 80%;
+    text-align: left;
+  }
+
+  .btn {
+    cursor: pointer;
+    width: 80px;
+    padding: 5px;
+    padding-inline: 12px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #ffeba2;
+
+    .link {
+      color: rgba(87, 87, 87, 0.781);
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+
+  .back-btn {
+  }
+
+  .toggle-btns {
+    display: flex;
+    margin-bottom: 12px;
+
+    .btn {
+      margin-inline: 8px;
+    }
+  }
+
+  .nav-btns {
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+    align-items: flex-end;
+    .btn {
+      margin: 8px;
+    }
+  }
+}
+
+.contact-edit {
+  input {
+    width: 50%;
+    margin: auto;
+    padding: 4px;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid black;
+  }
+
+  .btn {
+    margin: 10px auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-edit {
+    max-width: 100%;
+    box-shadow: unset;
+    text-align: center;
+  }
+}

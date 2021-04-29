@@ -1,0 +1,75 @@
+.homepage {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  //   border-right: black 1px solid;
+  //   border-left: black 1px solid;
+
+  .title {
+    margin: 50px;
+    text-decoration: underline;
+    text-transform: uppercase;
+  }
+
+  .user-container,
+  .coins-container,
+  .BTC-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 50px;
+    & > * {
+      margin-inline-start: 80px;
+    }
+
+    .person-img {
+      width: 80px;
+      height: 80px;
+      // margin: auto;
+      background-size: cover;
+      border-radius: 50%;
+      // float: left;
+    }
+
+    .coins-img,
+    .bitcoin-img {
+      width: 80px;
+    }
+  }
+  .user-container {
+    border-bottom: 1px solid black;
+  }
+}
+
+@media (max-width: 768px) {
+  .homepage {
+    width: 80%;
+
+    .user-container,
+    .coins-container,
+    .BTC-container {
+      & > * {
+        margin-inline-start: 0px;
+      }
+    }
+    .user-img,
+    .coins-img,
+    .bitcoin-img {
+      margin-right: 20px;
+    }
+    .person-img {
+      margin: auto;
+
+      // margin-inline: 30px;
+    }
+
+    // .user-container {
+    //   border-bottom: 1px solid black;
+    // }
+  }
+}

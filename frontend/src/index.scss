@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Livvic-Bold';
+  src: url(./assets/fonts/Livvic-Bold.ttf);
+}
+@font-face {
+  font-family: 'Livvic-Regular';
+  src: url(./assets/fonts/Livvic-SemiBold.ttf);
+}
+
+body {
+  margin: 0;
+  font-family:'Livvic-Regular';
+  // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  //   sans-serif;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+  color: rgba(0, 0, 0, 0.746);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.form-basic {
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  justify-content: center;
+  margin: auto;
+  box-shadow: #ffd392 0px 1px 5px 1px;
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 1rem auto;
+  background-color: #fff0bb42;
+
+  .basic-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 12px;
+    input {
+      width: 10rem;
+      padding: 4px;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+  }
+  button {
+    width: 5rem;
+    margin: auto;
+    padding: 0.3rem;
+    padding-inline: 12px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    background-color: #ffeba2;
+    cursor: pointer;
+  }
+  // margin-inline: 10px;
+  .contact-filter-label {
+    margin-inline-end: 8px;
+  }
+  .contact-filter-input {
+    width: 10rem;
+    padding: 4px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+}
+
+.btn {
+  width: 5rem;
+  margin: auto;
+  padding: 0.3rem;
+  padding-inline: 12px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  background-color: #ffeba2;
+  cursor: pointer;
+  text-decoration: none;
+  color: rgba(87, 87, 87, 0.781);
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 900px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+
+  li {
+    margin: 1rem;
+    box-shadow: #ffd392 0px 1px 5px 1px;
+    width: 20rem;
+    border-radius: 50px;
+    text-align: center;
+    a {
+      text-decoration: none;
+    }
+  }
+}

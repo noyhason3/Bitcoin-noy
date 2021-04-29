@@ -1,0 +1,16 @@
+.marketprice-chart {
+  margin: 0 auto;
+  width: 60%;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .marketprice-chart {
+    width: 100%;
+    border: none;
+    &>*{
+      // padding: 30px;
+    }
+  }
+}

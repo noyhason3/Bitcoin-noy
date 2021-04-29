@@ -1,0 +1,26 @@
+.contact-Preview{
+    display: flex;
+    list-style: none;
+    background-color: #FCF9FA;
+    border-radius: 50px;
+
+    .person-img{
+        width: 60px;
+        background-size: cover;
+        border-radius: 50%;
+        float: left;
+        margin-right: 50px;
+    }
+
+    .contact-name{
+        text-decoration: none;
+        color: rgba(0, 0, 0, 0.746);
+        font-weight: 600;
+        font-size: 1.2rem;
+    }
+
+    &:hover{
+        background-color:#FFD392;
+    }
+}
+
