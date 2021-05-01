@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build && rimraf ../backend/public && move build ../backend/public",
+    "build": "npm install && react-scripts build && rimraf ../backend/public && move build ../backend/public",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
